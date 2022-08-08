@@ -24,4 +24,4 @@ jobs:
     - name: Run
       shell: pwsh
       run: |
-        ./bin/Debug/netcoreapp3.1/DiskInfoLogger.exe
+        gci -Recurse
