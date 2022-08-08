@@ -22,4 +22,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Run
-      run: /bin/Debug/netcoreapp3.1/DiskInfoLogger.exe
+      run: bin/Debug/netcoreapp3.1/DiskInfoLogger.exe
