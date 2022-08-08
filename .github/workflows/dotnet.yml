@@ -24,4 +24,4 @@ jobs:
     - name: Run
       shell: pwsh
       run: |
-        ./DiskInfoLogger/bin/Debug/netcoreapp3.1/DiskInfoLogger.exe
+        ./bin/Debug/netcoreapp3.1/DiskInfoLogger.exe
